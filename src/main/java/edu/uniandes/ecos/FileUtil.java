@@ -20,7 +20,7 @@ public class FileUtil {
 
     public static LinkedList<Double> getListNumbers(final String nameFile) throws FileNotFoundException, IOException, NumberFormatException {
         final LinkedList<Double> list = new LinkedList<Double>();
-        final File file = new File("src/site/resources/"+nameFile);
+        final File file = new File("src/test/resources/"+nameFile);
         final FileReader fr = new FileReader(file);
         final BufferedReader br = new BufferedReader(fr);
         String line = br.readLine();

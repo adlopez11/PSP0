@@ -19,5 +19,5 @@ Luego de compilar el proyecto, ubicados en la raiz del proyecto, la aplicación 
 
 java -cp target/psp0-1.0-SNAPSHOT.jar edu.uniandes.ecos.App
 
-La aplicación preguntará por un archivo plano que se debe colocar en la ruta /src/site/resources/
+La aplicación preguntará por un archivo plano que se debe colocar en la ruta /src/test/resources/
 
